@@ -7,3 +7,17 @@ body {
 #root {
   height: 100%;
 }
+
+#aboutPhoto {
+  float: right;
+  padding-right: 10%;
+  height: 70%;
+  width: 50%;
+  margin-left: 5%;
+  margin-bottom: 5%
+}
+
+.aboutPage {
+  background-color: lightgray;
+  height: 100%;
+}
