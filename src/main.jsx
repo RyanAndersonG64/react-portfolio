@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 import About from './About'
+import Projects from './projects'
 import App from './App'
 import ErrorPage from './ErrorPage'
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <About />
+  },
+  {
+    path: 'projects',
+    element: <Projects />
   },
 ], {
   basename: site
