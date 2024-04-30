@@ -15,6 +15,7 @@ function App() {
       style={{ color: 'white' }}
     >
       <Link className="text-light" to='/about'>About</Link>
+      <Link className="text-light" to='/projects'>Projects</Link>
       <Title />
     </div>
   )
